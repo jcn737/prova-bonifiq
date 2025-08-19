@@ -10,11 +10,10 @@ namespace ProvaPub.Infrastructure.Repository
     public class ProcessPayment : IPaymentStrategyResolver
     {
         private readonly IDictionary<string, IPaymentStrategy> _strategies;
-        private string Normalize(string input) => input?.Trim().ToLowerInvariant();
+        private string Normalize(string input) => (input ?? "").Trim().ToLowerInvariant();
 
         public ProcessPayment(IEnumerable<IPaymentStrategy> strategies)
         {
-            // Mapa com a chave canônica (normalizada) = Name de cada estratégia
             _strategies = strategies.ToDictionary(
                 s => Normalize(s.Name),
                 s => s

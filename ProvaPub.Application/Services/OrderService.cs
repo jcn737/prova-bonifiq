@@ -21,10 +21,8 @@ namespace ProvaPub.Application.Services
             if (strategy == null)
                 throw new InvalidOperationException($"Método de pagamento '{paymentMethod}' não suportado.");
 
-            // Executa a estratégia correta
             await strategy.ProcessPayment(paymentValue, customerId);
 
-            // Cria pedido em UTC
             var order = new Order()
             {
                 Value = paymentValue,

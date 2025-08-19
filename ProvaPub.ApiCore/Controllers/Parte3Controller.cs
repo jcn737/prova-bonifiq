@@ -21,7 +21,6 @@ namespace ProvaPub.Controllers
         private readonly RandomService _randomService;
         private readonly OrderService _orderService;
 
-        // Construtor com injeção de dependência
         public Parte3Controller(RandomService randomService, OrderService orderService)
         {
             _randomService = randomService;
@@ -34,7 +33,6 @@ namespace ProvaPub.Controllers
             return await _randomService.GetRandom();
         }
 
-        // Endpoint GET (exemplo de teste)
         [HttpGet("orders")]
         public async Task<IActionResult> GetOrder(string paymentMethod, decimal paymentValue, int customerId)
         {
