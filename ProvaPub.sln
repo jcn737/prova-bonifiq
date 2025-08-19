@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaPub.Infrastructure", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaPub.Tests", "ProvaPub.Tests\ProvaPub.Tests.csproj", "{E393ADD1-A4C7-4538-9119-BF28E8DF4311}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaPub.Api", "ProvaPub.Api\ProvaPub.Api.csproj", "{9D3AFE7F-9E43-4B22-9E04-DC146DD309C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaPub.ApiCore", "ProvaPub.Api\ProvaPub.ApiCore.csproj", "{9D3AFE7F-9E43-4B22-9E04-DC146DD309C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
