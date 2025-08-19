@@ -15,3 +15,4 @@ C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Application
 C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Application\obj\Debug\net6.0\refint\ProvaPub.Application.dll
 C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Application\obj\Debug\net6.0\ProvaPub.Application.pdb
 C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Application\obj\Debug\net6.0\ref\ProvaPub.Application.dll
+C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Application\obj\Debug\net6.0\ProvaPub.Application.sourcelink.json

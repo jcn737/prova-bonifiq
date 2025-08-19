@@ -158,3 +158,4 @@ C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Tests\obj\D
 C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Tests\obj\Debug\net6.0\ProvaPub.Tests.pdb
 C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Tests\obj\Debug\net6.0\ProvaPub.Tests.genruntimeconfig.cache
 C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Tests\obj\Debug\net6.0\ref\ProvaPub.Tests.dll
+C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Tests\obj\Debug\net6.0\ProvaPub.Tests.sourcelink.json
