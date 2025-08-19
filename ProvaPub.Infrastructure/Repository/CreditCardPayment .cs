@@ -8,7 +8,6 @@ namespace ProvaPub.Infrastructure.Repository
 
         public Task ProcessPayment(decimal amount, int customerId)
         {
-            // lógica de pagamento via Cartão
             return Task.CompletedTask;
         }
     }

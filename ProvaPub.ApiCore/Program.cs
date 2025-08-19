@@ -22,7 +22,8 @@ builder.Services.AddScoped<RandomService>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 builder.Services.AddScoped<CustomerService>();
 builder.Services.AddScoped<IDateTimeProvider, SystemDateTimeProvider>();
-builder.Services.AddScoped<CustomerService>();
+builder.Services.AddScoped<ProductService>();
+
 
 builder.Services.AddDbContext<TestDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ctx")));

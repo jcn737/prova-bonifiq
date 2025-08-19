@@ -34,16 +34,38 @@ namespace ProvaPub.Controllers
             return await _randomService.GetRandom();
         }
 
+        // Endpoint GET (exemplo de teste)
         [HttpGet("orders")]
-        public async Task<Order> PlaceOrder(string paymentMethod, decimal paymentValue, int customerId)
+        public async Task<IActionResult> GetOrder(string paymentMethod, decimal paymentValue, int customerId)
         {
-            var order = await _orderService.PayOrder(paymentMethod, paymentValue, customerId);
+            try
+            {
+                var order = await _orderService.PayOrder(paymentMethod, paymentValue, customerId);
 
-            // Converte UTC → Horário de Brasília
-            var brasilTimeZone = TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time");
-            order.OrderDate = TimeZoneInfo.ConvertTimeFromUtc(order.OrderDate, brasilTimeZone);
+                // Converte UTC → Horário de Brasília
+                var brasilTimeZone = TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time");
+                order.OrderDate = TimeZoneInfo.ConvertTimeFromUtc(order.OrderDate, brasilTimeZone);
 
-            return order;
+                return Ok(order);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost("pay")]
+        public async Task<IActionResult> PlaceOrder(string paymentMethod, decimal paymentValue, int customerId)
+        {
+            try
+            {
+                await _orderService.PayOrder(paymentMethod, paymentValue, customerId);
+                return Ok($"Pagamento de {paymentValue:C} via {paymentMethod} processado com sucesso!");
+            }
+            catch (System.InvalidOperationException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }
