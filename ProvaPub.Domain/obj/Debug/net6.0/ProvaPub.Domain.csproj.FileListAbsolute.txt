@@ -1,0 +1,11 @@
+C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Domain\bin\Debug\net6.0\ProvaPub.Domain.deps.json
+C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Domain\bin\Debug\net6.0\ProvaPub.Domain.dll
+C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Domain\bin\Debug\net6.0\ProvaPub.Domain.pdb
+C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Domain\obj\Debug\net6.0\ProvaPub.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Domain\obj\Debug\net6.0\ProvaPub.Domain.AssemblyInfoInputs.cache
+C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Domain\obj\Debug\net6.0\ProvaPub.Domain.AssemblyInfo.cs
+C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Domain\obj\Debug\net6.0\ProvaPub.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Domain\obj\Debug\net6.0\ProvaPub.Domain.dll
+C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Domain\obj\Debug\net6.0\refint\ProvaPub.Domain.dll
+C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Domain\obj\Debug\net6.0\ProvaPub.Domain.pdb
+C:\Users\jcn73\source\repos\prova-bonifiq\prova-backend.git\ProvaPub.Domain\obj\Debug\net6.0\ref\ProvaPub.Domain.dll
