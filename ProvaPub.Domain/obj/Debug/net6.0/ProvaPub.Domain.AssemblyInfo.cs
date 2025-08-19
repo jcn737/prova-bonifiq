@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProvaPub.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42ba010ccad35b33f8f9b5de35cc8c38b28ad5bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c224439bf202e8f6370858b831080317421f6a03")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProvaPub.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProvaPub.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
