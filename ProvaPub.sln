@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaPub.Infrastructure", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaPub.Tests", "ProvaPub.Tests\ProvaPub.Tests.csproj", "{E393ADD1-A4C7-4538-9119-BF28E8DF4311}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaPub.Api", "ProvaPub.Api\ProvaPub.Api.csproj", "{2F5F75AE-74FF-9BDD-C7A1-553481523262}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{E393ADD1-A4C7-4538-9119-BF28E8DF4311}.Release|x64.Build.0 = Release|Any CPU
 		{E393ADD1-A4C7-4538-9119-BF28E8DF4311}.Release|x86.ActiveCfg = Release|Any CPU
 		{E393ADD1-A4C7-4538-9119-BF28E8DF4311}.Release|x86.Build.0 = Release|Any CPU
+		{2F5F75AE-74FF-9BDD-C7A1-553481523262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5F75AE-74FF-9BDD-C7A1-553481523262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5F75AE-74FF-9BDD-C7A1-553481523262}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2F5F75AE-74FF-9BDD-C7A1-553481523262}.Debug|x64.Build.0 = Debug|Any CPU
+		{2F5F75AE-74FF-9BDD-C7A1-553481523262}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2F5F75AE-74FF-9BDD-C7A1-553481523262}.Debug|x86.Build.0 = Debug|Any CPU
+		{2F5F75AE-74FF-9BDD-C7A1-553481523262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5F75AE-74FF-9BDD-C7A1-553481523262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F5F75AE-74FF-9BDD-C7A1-553481523262}.Release|x64.ActiveCfg = Release|Any CPU
+		{2F5F75AE-74FF-9BDD-C7A1-553481523262}.Release|x64.Build.0 = Release|Any CPU
+		{2F5F75AE-74FF-9BDD-C7A1-553481523262}.Release|x86.ActiveCfg = Release|Any CPU
+		{2F5F75AE-74FF-9BDD-C7A1-553481523262}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
