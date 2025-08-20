@@ -53,6 +53,7 @@ Fora do horário comercial
 Testes usam InMemoryDatabase, Moq para IDateTimeProvider, e cobrem todas as regras do CanPurchase.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+```text
 [Parte1Controller] 
      |
      | GET /random
@@ -66,6 +67,8 @@ Testes usam InMemoryDatabase, Moq para IDateTimeProvider, e cobrem todas as regr
      | Salva número no banco
      v
 [Retorna número aleatório único]
+```
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 [Parte2Controller] 
      |
