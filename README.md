@@ -70,6 +70,7 @@ Testes usam InMemoryDatabase, Moq para IDateTimeProvider, e cobrem todas as regr
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+```text
 [Parte2Controller] 
      |
      | GET /products?page={n}
@@ -86,6 +87,7 @@ Testes usam InMemoryDatabase, Moq para IDateTimeProvider, e cobrem todas as regr
 [Retorna 10 produtos da página solicitada]
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+```text
 [Parte3Controller]
      |
      | POST /pay ou GET /orders
@@ -110,14 +112,16 @@ Testes usam InMemoryDatabase, Moq para IDateTimeProvider, e cobrem todas as regr
      | Converte OrderDate para horário brasileiro (UTC-3)
      v
 [Resposta Controller]
+```
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+```text
 [Parte4Controller]
      |
-     | GET /canpurchase?customerId=1&value=10
+     | GET /canpurchase?customerId=1&value=10 
      v
-[CustomerService] (injetado via DI)
+[CustomerService]
      |
      | Regras de negócio aplicadas:
      |   - customerId inválido
@@ -133,3 +137,4 @@ Testes usam InMemoryDatabase, Moq para IDateTimeProvider, e cobrem todas as regr
      |
      v
 [Testes unitários CustomerServiceTests]
+```
